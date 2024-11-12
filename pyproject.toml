@@ -1,0 +1,19 @@
+[project]
+name = "nonebot-plugin-catface"
+version = "0.1.0"
+description = "Default template for PDM package"
+authors = [
+    {name = "XuChenXu", email = "91937041+ChenXu233@users.noreply.github.com"},
+]
+dependencies = ["ultralytics>=8.3.29", "nonebot2>=2.4.0", "nonebot-adapter-onebot>=2.4.6", "pillow>=11.0.0", "nonebot-plugin-send-anything-anywhere>=0.7.1"]
+requires-python = ">=3.12"
+readme = "README.md"
+license = {text = "MIT"}
+
+[build-system]
+requires = ["setuptools>=61", "wheel"]
+build-backend = "setuptools.build_meta"
+
+
+[tool.pdm]
+distribution = true
